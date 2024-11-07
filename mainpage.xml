@@ -1,0 +1,79 @@
+<view class="container">
+ <image class="banner" src="/assets/banner.png" mode="widthFix"></image>
+ <view class="user-info">
+   <view class="greeting">陈先生，您好</view>
+   <navigator url= "/pages/personalcenter/personalcenter" open-type="navigate">
+     <button class="arrow-button">➔</button>
+   </navigator>
+  
+  
+   <view class="points">积分: 103,560</view>
+    
+  
+  
+  
+    
+    
+   </view>
+
+
+ <view class="actions">
+   <navigator url= "/pages/Ai_assits/Ai_assits" open-type="navigate">
+   <button class="icon-button">智能客服</button>
+ </navigator>
+    <button class="icon-button">设置</button>
+ </view>
+  <view class="flight-search">
+   <view class="trip-type">
+     <text class="come-go">&nbsp;&nbsp;往返</text>
+    
+     <text class="active">单程</text>
+   </view>
+
+
+   <view class="location-picker">
+     <picker mode="selector" range="{{locations}}" bindchange="bindDepartureChange">
+       <view>出发地: </view>
+       <view class="departure">{{departure}}</view>
+     </picker>
+     <view class="antilocation-picker">⇄</view>
+     <picker mode="selector" range="{{locations}}" bindchange="bindArrivalChange">
+<view>目的地:</view>
+       <view class="departure">{{arrival}}</view>
+      
+     </picker>
+   </view>
+   <view class="date-picker">
+   <picker mode="date" bindchange="bindDateChange">
+     <view>出发日期: </view>
+     <view class="date">{{date}}</view>
+    
+   </picker>
+ </view>
+  
+   <view class="passenger-info">
+     <view class="labels">舱位和乘客:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⌄</view>
+     <view class="details"> {{cabinClass}}, {{passengers}}</view>
+  
+   </view>
+   <view class="promo-code">
+     <input placeholder="使用优惠代码" />
+   </view>
+   <button class="search-button" bindtap="searchFlights">搜索</button>
+ </view>
+
+
+</view>
+
+
+<view class="footer">
+ <button class="nav-button">预定行程</button>
+ <navigator url= "/pages/transit/transit" open-type="navigate">
+ <button class="nav-button">交通</button>
+</navigator>
+ <button class="nav-button">预办登机</button>
+ <button class="nav-button">航班动态</button>
+ <navigator url= "/pages/personalcenter/personalcenter" open-type="navigate">
+ <button class="nav-button">个人中心</button>
+</navigator>
+</view>
