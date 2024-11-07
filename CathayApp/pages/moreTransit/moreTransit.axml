@@ -1,0 +1,43 @@
+<view class="container">
+  <image class="banner" src="/assets/banner.png" mode="widthFix"></image>
+  <view class="title">国泰通</view>
+  <view class="description">
+    为令尊贵顾客们享受流畅的旅行体验，我们会为购买国泰航空机票的顾客提供国内/跨境交通服务...
+  </view>
+  <view class="tabs">
+    <button class="tab active">国内交通服务</button>
+    <navigator url= "/pages/MoretransitDomestic/MoretransitDomestic" open-type="navigate">
+    <button class="tab">跨境交通服务</button>
+    </navigator>
+  </view>
+  <view class="form">
+    <view class="form-item">
+      <text>出发地</text>
+      <text class="value">选择出发地</text>
+    </view>
+    <view class="form-item">
+      <text>目的地</text>
+      <text class="value">深圳 (SZX)</text>
+    </view>
+    <view class="form-item">
+      <text>出发日期</text>
+      <text class="value">2024年10月21日</text>
+    </view>
+    <view class="form-item">
+      <text>交通种类和乘客</text>
+      <text class="value">打车, 1成人 0儿童 0婴儿</text>
+    </view>
+    <view class="form-item">
+      <text>使用优惠代码</text>
+      <text class="value">→</text>
+    </view>
+    <button class="search-button">搜索</button>
+  </view>
+  <view class="footer">
+    <view class="footer-item">预定行程</view>
+    <view class="footer-item">交通</view>
+    <view class="footer-item">预办登机</view>
+    <view class="footer-item">航班动态</view>
+    <view class="footer-item">个人中心</view>
+  </view>
+</view>

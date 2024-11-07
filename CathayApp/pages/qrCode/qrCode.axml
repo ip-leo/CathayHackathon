@@ -1,0 +1,3 @@
+<view class="container">
+  <image class="banner" src="/assets/qrCode.png" mode="widthFix"></image>
+</view>

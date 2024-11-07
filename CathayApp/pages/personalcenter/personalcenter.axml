@@ -1,0 +1,39 @@
+<view class="container">
+  <image class="banner" src="/assets/banner.png" mode="widthFix"></image>
+  
+  <view class="user-info">
+    <text class="greeting">陈先生，您好</text>
+    <text class="card-info">金卡  9684257839</text>
+    <navigator class="edit-link" url="/path/to/edit">编辑帐户资料 ➔</navigator>
+    <navigator class="logout-link" url="/path/to/logout">登出</navigator>
+  </view>
+
+  <view class="info-section">
+    <view class="info-item">
+      <text class="label">里数</text>
+      <text class="value">103,560</text>
+      <navigator class="details-link" url="/path/to/details">更多详情 ➔</navigator>
+    </view>
+
+    <view class="info-item">
+      <text class="label">会籍积分</text>
+      <text class="value">600</text>
+      <text class="description">额外累积600积分即可升级会籍级别</text>
+      <navigator class="details-link" url="/path/to/details">更多详情 ➔</navigator>
+    </view>
+
+    <view class="info-item">
+      <text class="label">订单</text>
+      <text class="description">检查您的订单记录。</text>
+      <navigator class="details-link" url="/path/to/orders">查看所有 ➔</navigator>
+    </view>
+  </view>
+
+  <view class="footer">
+    <navigator class="footer-link" url="/path/to/page1">预定行程</navigator>
+    <navigator class="footer-link" url="/path/to/page2">交通</navigator>
+    <navigator class="footer-link" url="/path/to/page3">预办登机</navigator>
+    <navigator class="footer-link" url="/path/to/page4">航班动态</navigator>
+    <navigator class="footer-link active" url="/path/to/profile">个人中心</navigator>
+  </view>
+</view>

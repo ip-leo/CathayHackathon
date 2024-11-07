@@ -1,0 +1,31 @@
+<view class="container">
+  <image class="banner" src="/assets/banner.png" mode="widthFix"></image>
+  <view class="title">国泰通</view>
+  <view class="description">
+    为令尊贵顾客们享受流畅的旅行体验，我们会为购买国泰航空机票的顾客提供国内/跨境交通服务...
+  </view>
+  <input class="input-box" placeholder="姓氏（拼音/英文）"/>
+  <input class="input-box" placeholder="名字（拼音/英文）"/>
+  <input class="input-box" placeholder="预订参考编号/电子机票号码"/>
+  <view class="info">
+    请输⼊由6⾄7位字⺟及数字组成的预订参考编号或由13位数字组成的电子机票号码。
+  </view>
+  <view class="checkbox">
+    <checkbox id="agreement">
+      我已阅读并同意《国泰通条款和细则》及《国泰航空客户隐私声明》
+    </checkbox>
+  </view>
+  <navigator url= "/pages/qrCode/qrCode" open-type="navigate">
+  <button class="button1">立即使用</button>
+  </navigator>
+  <navigator url= "/pages/moreTransit/moreTransit" open-type="navigate">
+    <button class="button2">交通服务</button>
+    </navigator>
+  <view class="footer">
+    <view class="footer-item">预定行程</view>
+    <view class="footer-item">交通</view>
+    <view class="footer-item">预办登机</view>
+    <view class="footer-item">航班动态</view>
+    <view class="footer-item">个人中心</view>
+  </view>
+</view>

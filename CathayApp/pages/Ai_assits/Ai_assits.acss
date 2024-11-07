@@ -1,0 +1,10 @@
+.container {
+  padding: 16px;
+  background-color: #ffffff;
+}
+
+.banner{
+  width: 100%;
+  max-width: 400;
+  border-radius: 15px;
+}
